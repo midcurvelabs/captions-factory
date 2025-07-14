@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Streamlit
+.streamlit/
+
+# Output files
+*_viral.csv
+vibecode_viral_content.csv
+
+# Credentials (security)
+service-account.json
+credentials.json
+google-credentials.json
+*.json
+
+# Environment variables
+.env
+.env.local
